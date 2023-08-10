@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: start;
 }
 
 .App-logo {
@@ -32,7 +32,25 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.round-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.theme-green {
+  background-color: green;
+}
+
+.theme-blue {
+  background-color: rgb(22 53 83);
 }
